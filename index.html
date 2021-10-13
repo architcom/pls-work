@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGDOM</title>
+    <link href='thecrown.png'type="image"rel="icon">
+    <link rel="stylesheet" href="game.py" />
+
+</head>
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Birthstone&family=Josefin+Sans:ital,wght@0,700;1,300&display=swa');
+        
+
+        #crown{
+            width: 80px;
+            float:left;
+            padding-top:35px;
+            padding-bottom: 10px;
+        }
+
+        .heading{
+            margin-top: 12px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: "dancing script";
+            font-size: 30px;
+            background-color: black;
+            color:white;
+
+        }
+
+
+
+        #movE:hover{
+            background-color: white
+            
+
+        }
+
+
+        #movE{
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 20px;
+            border-left: 12px;
+            border-radius: 10px;
+
+
+            background-color: #756f1931;
+            transition: all 0.2s linear;
+            
+            
+
+        }
+
+        body{
+            margin:0
+        }
+
+
+
+
+
+
+
+        #aboutmea{
+            width: 130px;
+            padding-left: 0px;
+            margin-left: 0px;
+            border-left: 12px;
+
+
+            background-color: #756f1931;
+            transition: all 1s linear;
+            border-radius: 10px;    
+
+
+        }
+
+
+        #aboutmea:hover{
+            background-color: rgb(255, 255, 255);
+
+
+
+        }
+
+
+        .head1{
+
+            font-size: 3em;
+            left:0px;
+
+
+            font-family:'lobster';
+            
+            background-image: url('backgroundt.jpg');
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            
+            background-position: center;
+            
+            
+            
+           
+           
+
+
+
+
+
+
+        }
+
+
+        .head1{
+        display: inline-block;
+        position: absolute;
+         color: #ffffff;
+         padding:0em;
+         padding-right: 7em;
+         padding-left: 10em;
+         padding-bottom: 100px;
+         font-size: 44px;
+         left:0px;
+}
+
+
+.head1:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 20px;
+  bottom: 0;
+  left: 0px;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.head1:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.things{
+    
+
+
+    font-size: 4em;
+    font-family:"ephesis";
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 1100px;
+    left: +0;
+    top:+691px;
+    color:#ffffff;
+    background-color: black;
+   
+
+
+    
+    
+
+}
+
+
+.things{
+        display: inline-block;
+
+         color: #ffffff;
+
+ 
+
+
+}
+
+
+.things:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 20px;
+  bottom: 0;
+  left: 0px;
+  background-color: #5084d1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.things:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#bg{
+
+    position:absolute;
+    top:200px;
+    right:10pc;
+
+
+
+
+}
+
+
+#sit{
+    position:absolute;
+    top:750px;
+    right: 500px;
+    width: 200px;
+}
+
+#home{
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 20px;
+            border-left: 12px;
+            border-radius: 10px;
+            background-color: white;
+
+
+        }
+
+        .enjoymusic{
+            position:absolute;
+            color:#ffffff;
+            font-family: 'ephesis';
+            font-size: 3.5em;
+            top:1100px;
+            background-color: #000000e7;
+            padding-top:50px;
+            
+            right:0px;
+            padding-bottom: 50px;
+
+            padding-left: 420px;
+            padding-right: 40px;
+            text-align: right;
+            
+
+        }
+
+
+        .enjoymusic{
+        display: inline-block;
+
+         color: #ffffff;
+
+ 
+
+
+}
+
+
+.enjoymusic:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 20px;
+  bottom: 0;
+  left: 0px;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.enjoymusic:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+        #mus{
+            position:absolute;
+            width: 500px;
+            top: 1150px;
+
+        }
+
+        
+
+
+
+
+
+
+
+
+
+    </style>
+    <div class ='navebar'>
+
+    <div>
+        <img id = "crown"src="thecrown.png" alt="">
+    </div>
+    <div class = "heading">
+        <h2>My Kingdom</h2>
+        <div>        <a href="index.html"><img id = 'home'src="home.png" alt="homepage"></a>
+            <a href="movie.html"><img id = 'movE'src="movei.png" alt="movie and tv"></a>
+            <a href="song.html"><img id = 'movE'src="songsimg.png" alt="songs"></a>
+            <a href="aboutme.html"><img id = 'aboutmea'src="againabout.png" alt="about me"></a>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class = "head1">
+
+        <h1>Welcome to my kingdom</h1>
+    
+      </div>
+
+      <div class='things'>
+          <h2>Things to do</h2>
+      </div>
+
+
+
+
+        <img id = 'bg'src="thepersomd.png" alt="">
+
+
+
+      
+
+
+        <img id = 'sit'src="sit (1).png" alt="">
+
+
+
+      <div class="enjoymusic">
+
+        <h2>Enjoy music in the music section   ..............</h2>
+
+
+      </div>
+
+
+
+<img id = "mus"src="hi.png" alt="music">
+
+    
+</body>
+</html>
